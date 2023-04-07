@@ -10,6 +10,8 @@
     mkdir <folder-name>
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
     none, just a repeat of previous line
+    //FIX - Sorry, apparently I overlooked the second question. 
+         To answer, command 'ls' in a folder with files will show an alphabetized list of the files contained therein.
 # 6 - What is a quick way to create a new file?
     touch <filename.filetype>
 # 7 - Run 'git --version' in your terminal. What is the output?
@@ -17,6 +19,6 @@
 # 8 - Why would you run the command 'git status'?
     to see what recent updates are pending to be committed
 # 9 - What does the command 'git add .' do?
-    commits pending updates
+    commits pending updates (per Liz's feedback, it adds/stages all the files in the current directory)
 # 10 - What is the command to push your committed changes to your repo on GitHub?
     git push origin main
